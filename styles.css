@@ -1,0 +1,371 @@
+/** reset css **/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+/** travail **/
+
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url("images/bg-header-mobile.png") top no-repeat;
+    background-size: 100%;
+}
+
+br {
+    display: none;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.95rem;
+    color: hsl(210, 10%, 33%);
+    margin: 0.5em 0;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+    margin: 0.5em 0;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0.6em 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 83%;
+}
+
+/** première section **/
+
+.section-history {
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-c {
+    margin: 50px 0;
+}
+
+
+
+.download-ios {
+    background-color: #26bba5;
+    color: rgba(256, 256, 256, 0.85);
+    width: 100%;
+    padding: 1em 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 15px 40px -20px #26BBA5;
+}
+.download-ios:hover {
+    background-color: #5dccbb;
+    cursor: pointer;
+}
+
+.download-mac {
+    background-color: #6174ff;
+    color: rgba(256, 256, 256, 0.85);
+    width: 100%;
+    padding: 1em 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 15px 40px -20px #6174ff;
+}
+.download-mac:hover {
+    background-color: #8896ff;
+    cursor: pointer;
+}
+
+.boutons button {
+    margin: 0.6em 0;
+}
+
+.boutons {
+    margin: 2em 0;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: hsl(210, 10%, 33%);
+    margin: 0.5em 0;
+}
+
+/** deuxième section **/
+
+.section-keeptrack {
+    margin: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/** troisième section **/
+
+.section-avantages-écran {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-avantages-écran p,
+.section-avantages-écran img {
+    margin-bottom: 3em;
+}
+
+/** quatrième section **/
+
+.section-avantages-devices {
+    margin: 100px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-avantages-devices p,
+.section-avantages-devices img {
+    margin-bottom: 3em;
+}
+
+/** cinquième section **/
+
+.derniers-avantages {
+    margin: 65px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.derniers-avantages div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.derniers-avantages img {
+    margin: 2em 0;
+}
+
+.derniers-avantages p {
+    margin-bottom: 2em;
+}
+
+/** section des endorsements **/
+
+.logo-des-endorsements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-des-endorsements img {
+    margin: 2em 0;
+}
+
+/** section finale **/
+
+.section-finale {
+    margin: 135px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/** footer **/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #f5f6f8;
+}
+
+.liens-du-bas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.liens-du-bas a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #4C545DFF;
+    margin: 0.8em;
+}
+.liens-du-bas a:hover {
+    color: #23b59e;
+    cursor: pointer;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.petit-logo-c {
+    width: 60px;
+    margin: 50px 0;
+}
+
+.reseaux-sociaux {
+    margin: 3em 0;
+}
+.reseaux-sociaux path:hover {
+    fill: #23b59e;
+    cursor: pointer;
+}
+
+@media (min-width: 1300px) {
+
+    html {
+        background: url("images/bg-header-desktop.png") top no-repeat;
+        background-size: 100%;
+    }
+
+    /** première section **/
+
+    h2 {
+        font-size: 2.7rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    br {
+        display: block;
+    }
+
+    .boutons {
+        display: flex;
+    }
+    .download-ios, .download-mac {
+        padding: 1em 2em;
+        width: auto;
+    }
+    .boutons button {
+        margin: 0.6em 0.4em;
+    }
+
+    section {
+        max-width: 1200px;
+    }
+
+
+    /** troisième section **/
+
+    .section-avantages-écran {
+        flex-direction: row;
+    }
+
+    .image-ordi {
+        transform: translate(-20%, 0);
+    }
+
+    .avantages {
+        text-align: start;
+    }
+
+    .avantages p {
+        font-size: 1rem;
+    }
+    .avantages h4 {
+        margin-top: 0;
+    }
+
+    /** autres avantages **/
+
+    .derniers-avantages {
+        display: grid;
+        grid-template:
+        1fr
+        / 1fr 1fr 1fr;
+    }
+
+    .derniers-avantages div p {
+        font-size: 1rem;
+    }
+
+    .derniers-avantages div img.logo[alt="blacklist"] {
+        margin-top: 55px;
+    }
+
+    .logo-des-endorsements {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /** footer **/
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+
+    .liens-du-bas {
+        transform: translate(-20%, 0);
+        width: 550px;
+        display: grid;
+        grid-template:
+        1fr
+        1fr
+        / 1fr 1fr 1fr;
+    }
+
+    .reseaux-sociaux {
+        width: 150px;
+    }
+
+}
