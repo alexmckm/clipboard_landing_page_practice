@@ -10,9 +10,7 @@ This is a fully responsive landing page for a generic "Clipboard" app for iOS an
 
 **Tech used:**  HTML & CSS **only**!
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write  _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-This project has been tremendously helpful in helping me apply my front-end knowledge to a practical endeavour. Here, I use pure HTML and CSS, with the extensive help of **Flexbox** and **Grid**.
+This project has been tremendously helpful in helping me apply my front-end knowledge for a practical endeavour. Here, I use pure HTML and CSS, with the extensive help of **Flexbox** and **Grid**.
 
 Given a Figma file with both mobile and desktop designs, I started working mobile-first, and work my way up to the design desktop using media queries.
 
